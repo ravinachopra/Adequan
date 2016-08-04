@@ -1,0 +1,348 @@
+/*General CSS*/
+body{
+	font-size:16px;
+	line-height: 1.4;
+}
+p {
+    margin:0;
+}
+a {
+    text-decoration:none;
+}
+
+.container {
+    width:960px;    
+    padding:0;
+    box-sizing: border-box;
+}
+/*Header CSS start*/
+
+/*fixed header start*/
+/* header{
+	    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    z-index: 11111;
+} */
+/*fixed header end*/
+header{
+    padding:30px 0px 30px ;
+    text-align: center;
+}
+header .logo-wrapper img{
+    margin:0 auto;
+}
+header .navigation-menu-wrapper{
+    margin-top:50px;
+}
+header .navigation-menu-wrapper ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+header .navigation-menu-wrapper ul li{
+    width:33.33%;
+    float:left;
+}
+.nav-link-wrapper a{
+    color:black;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:16px;
+}
+.nav-link-wrapper a i{
+    color: #19a793;
+    font-size:20px;
+}
+/*Header CSS end*/
+
+/*Footer CSS start*/
+footer{
+    text-align:left;
+}
+footer .container>div{
+    margin-top:40px;
+}
+footer .container>div:last-child{
+    margin-top:50px;
+}
+.footer-part-1 p:first-child{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+footer .safety-info{
+    color:#5f5f5f;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.footer-part-3 ul{
+    counter-reset: item;
+    list-style-type: none;
+    padding:0;
+}
+
+
+.footer-part-3 ul li:before { 
+    content: counter(item) "  "; 
+    counter-increment: item ;
+	
+}
+footer .adequan-logo{
+    float:left;
+}
+footer .elanco-logo{
+    float:right;
+}
+/*Footer CSS End*/
+
+/*Section CSS General Start*/
+
+.green-background{
+	background: #1e988a;
+}
+.rect-box{
+	display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background: #ffdb00;
+    padding: 8px 41px;
+	margin-bottom:40px;
+}
+.grey-background{
+	background: #ffffff;
+}
+.section-main-text{
+	color:#1e988a;
+	font-size:26px;	
+	text-transform: uppercase;
+	text-align: center;
+}
+.section-sub-text{
+	margin-top:30px;
+	text-align: left;
+}
+.content-container{
+	margin-bottom: 40px;
+}
+.yellow-color{
+	color: #ffdb00;
+}
+.white-color{
+	color:white;
+}
+/*Section CSS General End*/
+
+
+/*intro-section CSS Start */
+.banner-image img{
+	width: 100%;
+}
+.adequan-features-wrapper{
+	padding:40px 0px 0px;
+	color:white;
+}
+.features{
+	margin-top:40px;
+}
+.features ul{
+	padding-left:18px;
+	color:#ffdc00;
+	float: left;
+    width: 50%;
+    margin:0;
+    font-weight:bold;
+}
+.features ul li{
+	margin-bottom: 40px;
+	padding-right:41%;
+}
+.features ul span{
+	color:white;
+}
+
+/*intro-section CSS End */
+/*about-canine-sectionn CSS Start */
+
+.about-canine-section,.dog-risk-section{
+	padding:40px 0px 0px;
+	text-align: center;
+}
+.canine-facts{
+	text-align: left;
+	margin-top: 40px;
+}
+.canine-facts p{
+	text-transform: uppercase;
+	color: #1e988a;
+	margin-bottom: 30px;
+}
+.canine-facts ul{
+	color:#1e988a;	
+}
+.canine-facts ul span{
+	color:black;	
+}
+.canine-facts ul li{
+	margin-bottom: 15px;
+}
+/*about-canine-sectionn CSS End */
+
+/*dog-risk-sectionn CSS Start */
+.question-container{
+	margin: 30px 0px 40px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.ques-ans {
+    background: white;
+    padding: 36px 21%;
+    color: #1e988a;
+    font-size: 20px;
+}
+.answer-panel{
+	padding-top: 30px;
+}
+.answer-panel span {
+    padding: 12px 80px;
+    border: 2px solid #ffdb00;
+    text-transform: uppercase;
+}
+.answer-panel span:hover{
+	background:#ffdb00;
+}
+.answer-panel .yes{
+	float:left;
+}
+.answer-panel .no{
+	float:right;
+}
+.ques-no-panel{
+	padding: 17px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.ques-no-panel span{
+	text-transform: lowercase;
+}
+/*dog-risk-sectionn CSS End */
+
+/*work-sectionn CSS Start */
+/*work-sectionn CSS Start */
+
+.work-section{
+	padding:40px 0 10px;
+	text-align: center;
+}
+.canine-working{
+	margin: 0px auto 40px;
+}
+.plan-container{
+	text-align: left;
+}
+.plan-heading{
+	font-size:20px;
+	color:#1e988a;	
+	text-transform: uppercase;
+}
+.plan-container hr{
+	margin: 14px 0 30px;
+    border-top: 4px solid #ffdb00;
+}
+.plan-steps-list{
+	margin-top:40px;
+}
+.plan-step-container {
+    width: 50%;
+    float: left;
+    padding: 0px 30px 30px;
+}
+.plan-step-image {
+    float: left;
+    width:25%;
+}
+.plan-step-content{
+	float:right;
+	width: 75%;
+	line-height: 30px;
+}
+p.step-heading {
+    text-transform: uppercase;
+    font-size: 18px;
+   line-height: 24px;
+    color: #1e988a;
+}
+/*work-sectionn CSS End */
+/*for-vet-sectionn CSS Start */
+
+.for-vet-section{
+	padding:40px 0 0;
+	color:white;
+}
+.for-vet-section a{
+	color:white;
+	text-decoration: underline;
+}
+/*for-vet-sectionn CSS End */
+
+/*Rsponsive CSS for Mobiles*/
+@media screen and (max-width:768px){
+	body {
+    	font-size: 15px;
+	}
+    .container{
+        width:100%;
+        padding:0 15px;
+    }
+    .nav-link-wrapper a{       
+        font-size:12px;
+    }
+    .nav-link-wrapper a p:first-child{
+    	min-height:34px;
+    }
+    .plan-step-container{
+    	width:100%;
+    }
+    .footer-part-5 .adequan-logo {
+    width: 170px;
+    height: 40px;
+}
+.ques-ans{
+padding: 36px 10px;
+}
+.footer-part-5 .elanco-logo {
+    width: 100px;
+    height: 42px;
+}
+.plan-step-container{
+	padding:0;
+}
+.plan-step-content{
+	width:70%;
+}
+.plan-step-image{
+	width:30%;
+}
+.answer-panel span {
+    padding: 12px 42px;
+}
+.answer-panel span {
+    padding: 12px 80px;
+    }
+	
+}
+@media screen and (max-width: 768px) and (orientation:landscape){
+	
+}
+/*Responsive CSS for IPAD*/
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        width:750px;
+    }
+    .ques-ans {
+    padding: 36px 14%;
+}
+	
+}
